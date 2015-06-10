@@ -6,16 +6,17 @@ Docker container for front-end
 ## Packages
 ### Debian
  * git
- * ruby
- * ruby-dev
- * nodejs
- * nodejs-legacy
- * npm
 
-### RubyGems
+### Ruby
+ * Ruby (from latest tarball)
+
+#### RubyGems
  * bundler
  * compass
 
-### npm
+### Node.js
+ * Node.js (from latest tarball)
+
+#### npm
  * bower
  * gulp
