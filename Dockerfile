@@ -14,7 +14,7 @@ RUN cat /dev/null > /etc/apt/sources.list && \
 # Install additional packages
 RUN apt-get update && \
     apt-get install -y git && \
-    apt-get build-dep -y nodejs ruby && \
+    apt-get build-dep -y nodejs ruby openjdk-7-jre-headless && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 

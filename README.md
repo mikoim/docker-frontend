@@ -6,6 +6,7 @@ Docker container for front-end
 ## Packages
 ### Debian
  * git
+ * openjdk-7-jre-headless
 
 ### Ruby
  * Ruby (from latest tarball)
